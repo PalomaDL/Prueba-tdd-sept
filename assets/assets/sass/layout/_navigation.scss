@@ -1,0 +1,12 @@
+.navbar {
+    background-color: $gray !important;
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px !important;
+        img {
+            max-height: 7vh;
+            width: auto;
+        }
+    }
+}
