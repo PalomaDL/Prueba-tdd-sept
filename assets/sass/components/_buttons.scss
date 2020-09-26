@@ -1,0 +1,20 @@
+.button__main {
+    font-family: inherit;
+    text-decoration: none;
+    border: 1px solid $color-main;
+    background-color: $color-main;
+    color: $white;
+    padding: 10px 20px;
+    font-weight: $txt-weight-light;
+    &:hover {
+        background-color: $white;
+        color: $color-main;
+    }
+
+    &:active {
+        box-shadow: inset 3px 3px 5px $color-main;
+    }
+    &:a {
+        text-decoration: none;
+    }
+}

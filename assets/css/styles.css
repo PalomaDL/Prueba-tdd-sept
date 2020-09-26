@@ -1,0 +1,171 @@
+/* @import 'vendors/bootstrap'; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuentes importadas desde Google Fonts
+Roboto Slab: Light 300 - Regular 400 - Bold 700 */
+h1 {
+  font-size: 9vw;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+
+h4 {
+  font-size: 2vw;
+}
+
+h5 {
+  font-size: 1vw;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+i {
+  color: #A92205;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: #A92205;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #EEEEEE !important;
+}
+.navbar .navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+}
+.navbar .navbar-brand img {
+  max-height: 7vh;
+  width: auto;
+}
+
+main {
+  height: 98vh;
+  width: 100vw;
+  color: #ffffff;
+  text-shadow: 2px 2px 20px #505050;
+}
+
+.hero__section {
+  background-image: url(../img/hero-img.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100vw;
+  z-index: 0;
+}
+
+.carrusel__main {
+  width: 80vw;
+  position: absolute;
+  right: 10vw;
+  bottom: 20vh;
+  z-index: 1;
+}
+.carrusel__main img {
+  object-fit: cover;
+}
+.carrusel__main:after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+}
+
+.boton {
+  position: absolute;
+  right: 30vw;
+  bottom: 18vh;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .hero__section {
+    width: 70vw;
+    height: 100vh;
+    z-index: 0;
+  }
+
+  .carrusel__main {
+    width: 35vw;
+    position: absolute;
+    right: 5vw;
+    bottom: 20vh;
+    z-index: 1;
+  }
+  .carrusel__main img {
+    object-fit: cover;
+  }
+  .carrusel__main:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  }
+
+  .boton {
+    position: absolute;
+    right: 10vw;
+    bottom: 18vh;
+    z-index: 2;
+  }
+}
+.footer {
+  background-color: #A92205;
+  color: #ffffff;
+  justify-content: space-around;
+}
+
+.button__main {
+  font-family: inherit;
+  text-decoration: none;
+  border: 1px solid #A92205;
+  background-color: #A92205;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+.button__main:hover {
+  background-color: #ffffff;
+  color: #A92205;
+}
+.button__main:active {
+  box-shadow: inset 3px 3px 5px #A92205;
+}
+.button__main:a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
